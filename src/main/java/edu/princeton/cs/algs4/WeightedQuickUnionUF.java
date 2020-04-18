@@ -12,6 +12,9 @@
 
 package edu.princeton.cs.algs4;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 /**
  *  The {@code WeightedQuickUnionUF} class represents a <em>union–find data type</em>
  *  (also known as the <em>disjoint-sets data type</em>).
@@ -168,7 +171,9 @@ public class WeightedQuickUnionUF {
      * 
      * @param args the command-line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
+        FileInputStream fis = new FileInputStream("/Users/xudongsun/Downloads/LargeUF.txt");
+        System.setIn(fis);
         int n = StdIn.readInt();
         WeightedQuickUnionUF uf = new WeightedQuickUnionUF(n);
         while (!StdIn.isEmpty()) {

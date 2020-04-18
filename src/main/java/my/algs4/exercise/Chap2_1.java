@@ -53,7 +53,7 @@ class InsertionSort extends SortBase {
         int N = a.length;
         for (int i = 1; i < N; i++) {
             int curIdx = i;
-            for (int j = i - 1; j > 0; j--) {
+            for (int j = i - 1; j > 0; j--) {  // my implementation
                 if (less(a[curIdx--], a[j]))
                     exch(a, curIdx, j);
             }
@@ -64,7 +64,7 @@ class InsertionSort extends SortBase {
         int N = a.length;
         for (int i = 1; i < N; i++) {  // Insert a[i] among a[i-1], a[i-2], a[i-3]... ..
             for (int j = i; j > 0 && less(a[j], a[j - 1]); j--)
-                exch(a, j, j - 1);
+                exch(a, j, j - 1);  // full exchange is expensive, better solution below.
         }
     }
 

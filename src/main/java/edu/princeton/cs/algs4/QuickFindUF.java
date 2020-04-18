@@ -164,6 +164,8 @@ public class QuickFindUF {
      * @param args the command-line arguments
      */
     public static void main(String[] args) throws FileNotFoundException {
+        FileInputStream fis = new FileInputStream("/Users/xudongsun/Downloads/mediumUF.txt");
+        System.setIn(fis);
         int n = StdIn.readInt();
         QuickFindUF uf = new QuickFindUF(n);
         while (!StdIn.isEmpty()) {
