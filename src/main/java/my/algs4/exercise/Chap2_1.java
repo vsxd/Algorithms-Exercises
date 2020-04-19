@@ -41,9 +41,9 @@ class SelectionSort extends SortBase {
         for (int i = 0; i < a.length; i++) {
             int minIdx = i;
             for (int j = i + 1; j < a.length; j++) {
-                if (SortBase.less(a[j], a[minIdx])) minIdx = j;
+                if (less(a[j], a[minIdx])) minIdx = j;
             }
-            SortBase.exch(a, i, minIdx);
+            exch(a, i, minIdx);
         }
     }
 }
@@ -77,6 +77,38 @@ class InsertionSort extends SortBase {
                 a[j] = a[j - 1];
             }
             a[j] = temp;
+        }
+    }
+}
+
+class ShellSort extends SortBase {
+    public static void sort(Comparable[] a) {
+        int[] seq = {1, 4, 13, 40, 121, 364, 1093};
+        int N = a.length;
+        int h = 1;
+        for (int i = 0; i < seq.length && seq[i] < (N / 3); i++) {
+            h = seq[i];
+        }
+        while (h >= 1) {
+            for (int i = h; i < N; i++) {
+                for (int j = i; j >= h && less(a[j], a[j - h]); j -= h) {
+                    exch(a, j, j - h);
+                }
+            }
+            h = h / 3;
+        }
+    }
+
+    public static void sort_book(Comparable[] a) {  // Sort a[] into increasing order.
+        int N = a.length;
+        int h = 1;
+        while (h < N / 3) h = 3 * h + 1; // 1, 4, 13, 40, 121, 364, 1093, ...
+        while (h >= 1) {  // h-sort the array.
+            for (int i = h; i < N; i++) {  // Insert a[i] among a[i-h], a[i-2*h], a[i-3*h]... .
+                for (int j = i; j >= h && less(a[j], a[j - h]); j -= h)
+                    exch(a, j, j - h);
+            }
+            h = h / 3;
         }
     }
 }
