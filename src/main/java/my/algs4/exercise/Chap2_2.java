@@ -2,7 +2,39 @@ package my.algs4.exercise;
 
 import edu.princeton.cs.algs4.Insertion;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Stack;
+
 public class Chap2_2 {
+    public static void main(String[] args) {
+        reverse(123);
+    }
+    public static int reverse(int x) {
+        if(x==Integer.MIN_VALUE)
+            return 0;
+        boolean neg = false;
+        if(x<0){
+            neg = true;
+            x = -x;
+        }
+        String str = Integer.toString(x);
+        StringBuilder sb = new StringBuilder();
+        for (int i = str.length()-1; i >= 0; i--) {
+            sb.append(str.charAt(i));
+        }
+        int result = 0;
+        try {
+            result = Integer.parseInt(sb.toString());
+        } catch (NumberFormatException e){
+            return 0;
+        }
+
+        if(neg) return -result;
+        return result;
+    }
+
+
 }
 
 
