@@ -16,14 +16,14 @@ class MaxPQ<Key extends Comparable<Key>> {
     }
 
     MaxPQ(Key[] a) {
-        pq = (Key[])new Comparable[a.length];
+        pq = (Key[]) new Comparable[a.length];
         for (Key item : a) {
             insert(item);
         }
     }
 
     public void insert(Key v) {
-        if(pq.length == N+1)
+        if (pq.length == N + 1)
             throw new ArrayStoreException();
         pq[N++] = v;
         swim(N);
@@ -34,11 +34,11 @@ class MaxPQ<Key extends Comparable<Key>> {
     }
 
     public Key delMax() {
-        if(isEmpty())
+        if (isEmpty())
             throw new ArrayStoreException();
         Key v = pq[1];
         exch(1, N--);
-        pq[N+1] = null;
+        pq[N + 1] = null;
         sink(1);
         return v;
     }
@@ -69,9 +69,9 @@ class MaxPQ<Key extends Comparable<Key>> {
     }
 
     private void sink_recursion(int k) {
-        if (2*k > N) return;
-        int j = 2*k;
-        if (j < N && less(j, j+1)) j++;
+        if (2 * k > N) return;
+        int j = 2 * k;
+        if (j < N && less(j, j + 1)) j++;
         if (!less(k, j)) return;
         exch(k, j);
         sink_recursion(j);
@@ -98,5 +98,28 @@ class MaxPQ<Key extends Comparable<Key>> {
 
     private int parent(int i) {
         return i / 2;  // java中int除法为towards-0，正数部分与向下取整一致
+    }
+}
+
+class HeapSort extends SortBase {
+    private static void sink(Comparable[] a, int i, int N) {
+        while (i * 2 <= N) {
+            int j = i * 2;
+            if (j < N && less(j, j + 1)) j++;
+            if (!less(i, j)) break;
+            exch(a, j, i);
+            i = j;
+        }
+    }
+
+    public static void sort(Comparable[] a) {
+        int N = a.length;
+        for (int k = N / 2; k >= 1; k--) {
+            sink(a, k, N);
+        }
+        while (N > 1) {
+            exch(a, 1, N--);
+            sink(a, 1, N);
+        }
     }
 }
