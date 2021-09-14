@@ -23,7 +23,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 /**
  *  The {@code InsertionX} class provides static methods for sorting
  *  an array using an optimized version of insertion sort (with half exchanges

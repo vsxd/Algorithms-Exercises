@@ -62,7 +62,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code KosarajuSharirSCC} class represents a data type for 

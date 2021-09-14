@@ -49,7 +49,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code DegreesOfSeparation} class provides a client for finding

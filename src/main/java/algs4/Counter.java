@@ -18,7 +18,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code Counter} class is a mutable data type to encapsulate a counter.

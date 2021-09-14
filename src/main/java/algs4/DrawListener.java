@@ -6,7 +6,7 @@
  *  Interface that accompanies Draw.java.
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  <i>DrawListener</i>. This interface provides a basic capability for

@@ -8,7 +8,7 @@
  * 
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code SeparateChainingHashST} class represents a symbol table of generic

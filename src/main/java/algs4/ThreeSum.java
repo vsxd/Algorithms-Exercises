@@ -25,7 +25,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code ThreeSum} class provides static methods for counting

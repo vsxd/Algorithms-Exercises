@@ -11,7 +11,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code Stopwatch} data type is for measuring

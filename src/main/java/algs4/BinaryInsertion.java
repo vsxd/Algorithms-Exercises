@@ -22,7 +22,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code BinaryInsertion} class provides a static method for sorting an

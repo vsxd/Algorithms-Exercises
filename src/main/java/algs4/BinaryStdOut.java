@@ -11,7 +11,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 import java.io.BufferedOutputStream;
 import java.io.IOException;

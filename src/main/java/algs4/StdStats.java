@@ -31,7 +31,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code StdStats} class provides static methods for computing

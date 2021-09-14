@@ -22,7 +22,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code Shell} class provides static methods for sorting an

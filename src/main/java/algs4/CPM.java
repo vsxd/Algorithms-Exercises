@@ -23,7 +23,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code CPM} class provides a client that solves the

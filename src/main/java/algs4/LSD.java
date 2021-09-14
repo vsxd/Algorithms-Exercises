@@ -27,7 +27,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code LSD} class provides static methods for sorting an

@@ -10,7 +10,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code QuickX} class provides static methods for sorting an array

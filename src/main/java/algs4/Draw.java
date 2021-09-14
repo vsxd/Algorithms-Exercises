@@ -23,7 +23,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 import java.awt.BasicStroke;
 import java.awt.Color;

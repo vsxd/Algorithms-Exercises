@@ -30,7 +30,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code GaussianElimination} data type provides methods

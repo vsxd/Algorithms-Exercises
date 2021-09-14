@@ -29,7 +29,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code KMP} class finds the first occurrence of a pattern string

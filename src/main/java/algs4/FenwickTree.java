@@ -6,7 +6,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  * Created by ricardodpsx@gmail.com on 4/01/15.

@@ -34,7 +34,7 @@
  *  
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 import java.util.NoSuchElementException;
 

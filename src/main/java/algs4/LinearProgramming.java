@@ -13,7 +13,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code LinearProgramming} class represents a data type for solving a

@@ -16,7 +16,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code DoublingRatio} class provides a client for measuring

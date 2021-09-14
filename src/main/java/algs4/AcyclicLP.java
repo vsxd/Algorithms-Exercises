@@ -20,7 +20,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code AcyclicLP} class represents a data type for solving the

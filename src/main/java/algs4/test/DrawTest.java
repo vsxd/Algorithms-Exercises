@@ -1,8 +1,8 @@
-package main.java.test;
+package algs4.test;
 
-import main.java.algs4.StdDraw;
-import main.java.algs4.StdRandom;
 
+import algs4.StdDraw;
+import algs4.StdRandom;
 
 public class DrawTest {
     public static void main(String[] args) {

@@ -12,7 +12,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 import java.lang.management.ThreadMXBean;
 import java.lang.management.ManagementFactory;

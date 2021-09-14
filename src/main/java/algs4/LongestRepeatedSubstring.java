@@ -26,7 +26,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code LongestRepeatedSubstring} class provides a {@link SuffixArray}

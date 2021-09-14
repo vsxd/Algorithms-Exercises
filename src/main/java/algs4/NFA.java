@@ -25,7 +25,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code NFA} class provides a data type for creating a

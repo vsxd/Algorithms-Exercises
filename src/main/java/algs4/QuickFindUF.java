@@ -10,7 +10,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code QuickFindUF} class represents a <em>union–find data type</em>

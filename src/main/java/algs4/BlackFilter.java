@@ -28,7 +28,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code BlackFilter} class provides a client for reading in a <em>blacklist</em>

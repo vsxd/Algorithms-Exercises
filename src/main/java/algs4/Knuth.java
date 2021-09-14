@@ -43,7 +43,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code Knuth} class provides a client for reading in a 

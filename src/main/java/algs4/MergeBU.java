@@ -22,7 +22,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code MergeBU} class provides static methods for sorting an

@@ -22,7 +22,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code Arbitrage} class provides a client that finds an arbitrage

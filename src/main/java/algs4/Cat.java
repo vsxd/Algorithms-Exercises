@@ -25,7 +25,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code Cat} class provides a client for concatenating the results

@@ -41,7 +41,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code SymbolGraph} class represents an undirected graph, where the

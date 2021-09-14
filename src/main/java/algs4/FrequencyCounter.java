@@ -24,7 +24,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code FrequencyCounter} class provides a client for 

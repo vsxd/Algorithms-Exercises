@@ -20,7 +20,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code BinaryDump} class provides a client for displaying the contents

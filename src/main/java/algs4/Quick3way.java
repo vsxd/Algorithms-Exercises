@@ -21,7 +21,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code Quick3way} class provides static methods for sorting an

@@ -11,7 +11,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
@@ -96,7 +96,7 @@ public class ResizingArrayQueue<Item> implements Iterable<Item> {
     /**
      * Removes and returns the item on this queue that was least recently added.
      * @return the item on this queue that was least recently added
-     * @throws java.util.NoSuchElementException if this queue is empty
+     * @throws NoSuchElementException if this queue is empty
      */
     public Item dequeue() {
         if (isEmpty()) throw new NoSuchElementException("Queue underflow");
@@ -113,7 +113,7 @@ public class ResizingArrayQueue<Item> implements Iterable<Item> {
     /**
      * Returns the item least recently added to this queue.
      * @return the item least recently added to this queue
-     * @throws java.util.NoSuchElementException if this queue is empty
+     * @throws NoSuchElementException if this queue is empty
      */
     public Item peek() {
         if (isEmpty()) throw new NoSuchElementException("Queue underflow");

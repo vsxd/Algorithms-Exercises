@@ -7,7 +7,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code Interval2D} class represents a closed two-dimensional interval,

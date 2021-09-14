@@ -24,7 +24,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code Vector} class represents a <em>d</em>-dimensional Euclidean vector.

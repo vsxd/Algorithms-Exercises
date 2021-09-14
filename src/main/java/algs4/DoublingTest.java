@@ -14,7 +14,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code DoublingTest} class provides a client for measuring

@@ -29,7 +29,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code CC} class represents a data type for 

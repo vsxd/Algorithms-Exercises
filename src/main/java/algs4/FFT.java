@@ -59,7 +59,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code FFT} class provides methods for computing the 

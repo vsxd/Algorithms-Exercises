@@ -7,7 +7,7 @@
  *  
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code DigraphGenerator} class provides static methods for creating

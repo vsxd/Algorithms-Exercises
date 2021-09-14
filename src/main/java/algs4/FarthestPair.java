@@ -17,7 +17,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code FarthestPair} data type computes the farthest pair of points

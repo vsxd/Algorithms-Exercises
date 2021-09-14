@@ -33,7 +33,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code GaussJordanElimination} data type provides methods

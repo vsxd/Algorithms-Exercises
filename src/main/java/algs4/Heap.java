@@ -21,7 +21,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code Heap} class provides a static method to sort an array

@@ -7,7 +7,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code Inversions} class provides static methods to count the 

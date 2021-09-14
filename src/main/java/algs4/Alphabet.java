@@ -12,7 +12,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 public class Alphabet {
 

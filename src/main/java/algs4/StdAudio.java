@@ -14,7 +14,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 import javax.sound.sampled.Clip;
 

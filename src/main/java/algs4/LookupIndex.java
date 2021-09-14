@@ -33,7 +33,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code LookupIndex} class provides a data-driven client for reading in a

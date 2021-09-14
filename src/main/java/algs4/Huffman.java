@@ -20,7 +20,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code Huffman} class provides static methods for compressing

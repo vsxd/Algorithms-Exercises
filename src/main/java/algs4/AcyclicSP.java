@@ -18,7 +18,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code AcyclicSP} class represents a data type for solving the

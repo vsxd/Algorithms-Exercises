@@ -8,7 +8,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code LinearProbingHashST} class represents a symbol table of generic

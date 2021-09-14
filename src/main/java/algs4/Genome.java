@@ -15,7 +15,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code Genome} class provides static methods for compressing

@@ -18,7 +18,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code TrieST} class represents an symbol table of key-value

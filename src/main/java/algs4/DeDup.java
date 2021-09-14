@@ -30,7 +30,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code DeDup} class provides a client for reading in a sequence of

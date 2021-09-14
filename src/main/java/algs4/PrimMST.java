@@ -36,7 +36,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code PrimMST} class represents a data type for computing a

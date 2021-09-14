@@ -9,7 +9,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code SparseVector} class represents a <em>d</em>-dimensional mathematical vector.

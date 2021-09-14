@@ -13,7 +13,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code BTree} class represents an ordered symbol table of generic

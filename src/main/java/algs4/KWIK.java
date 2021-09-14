@@ -35,7 +35,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code KWIK} class provides a {@link SuffixArray} client for computing

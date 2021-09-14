@@ -23,7 +23,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code Multiway} class provides a client for reading in several

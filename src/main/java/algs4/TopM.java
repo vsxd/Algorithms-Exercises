@@ -17,7 +17,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code TopM} class provides a client that reads a sequence of

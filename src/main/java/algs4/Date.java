@@ -7,7 +7,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code Date} class is an immutable data type to encapsulate a

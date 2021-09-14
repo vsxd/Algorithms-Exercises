@@ -21,7 +21,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code BoruvkaMST} class represents a data type for computing a

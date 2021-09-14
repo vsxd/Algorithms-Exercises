@@ -19,7 +19,7 @@
  *
  ******************************************************************************/
 
-package main.java.algs4;
+package algs4;
 
 /**
  *  The {@code Polynomial} class represents a polynomial with integer
