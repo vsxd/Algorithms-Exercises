@@ -187,15 +187,9 @@ class MaxPQ<Key extends Comparable<Key>> extends SortBase {
     private Key[] pq;
     private int N = 0; //pq[1..N] are used, pq[0] is not
 
-    //    MaxPQ(){
-//
-//    }
     MaxPQ(int max) {
         pq = (Key[]) new Comparable[max + 1];
     }
-//    MaxPQ(Key[] a) {
-//
-//    }
 
     private void swim(int k) {
         while (k > 1 && less(pq[k / 2], pq[k])) {
@@ -207,16 +201,6 @@ class MaxPQ<Key extends Comparable<Key>> extends SortBase {
     private void sink(int k) {
         while (k * 2 <= N) {
             int j = 2 * k;
-//            if(j >= N) break;
-//            if (less(pq[k], pq[j])) {
-//                exchange(pq, k, j);
-//                k = j;
-//            } else if( less(pq[k], pq[j+1])){
-//                exchange(pq, k, j+1);
-//                k = j+1;
-//            } else {
-//                break;
-//            }
             if (j < N && less(pq[j + 1], pq[j])) j++;
             if (!less(pq[k], pq[j])) break;
             exchange(pq, j, k);
